@@ -5,16 +5,34 @@
 An evolutionary path-finding alogorithm written in C++.
 
 + [Installation](#installation)
-+ [Algorithm](#algorithm)
++ [Dependencies](#dependencies)
++ [How it works](#the-algorithm)
 + [Liscence](#liscence)
 
 
 
 ## Installation
 
-To install please ensure that the SFML library is linked to the code. You can use CMake to build, or if you are using linux you can try installing SFML manually. If you chose to do this, the `comp.sh` build script can be used to link up the project and the code should work. 
+To install first create a build directory in `src` using:
+
+  `mkdir build`
+  
+Then move to it and build the project using cmake:
+
+  `cmake ../` and then
+  `make`
+
+If you are using linux, [SFML](https://github.com/SFML/SFML) requires you to install **some [dependencies](#dependencies)**.
+You can download them with your chosen package manager (eg: *apt*) - all common package managers should be fine.
 
 
-## Algorithm
+## Dependencies
+
+This project uses [SFML](https://github.com/SFML/SFML). CMake will handle the installation of that for you, but you are required to install a few small SFML dependencies. These can be found [here](https://github.com/SFML/SFML#external-libraries-used-by-sfml).
+
+
+
+
+## The Algorithm
 
 ## Liscence
