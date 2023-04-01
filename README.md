@@ -43,8 +43,8 @@ In order to create new maps you can modify the map stored in main.cpp - and expa
 
 + `0` - An empty space
 + `1` - A filled space
-+ `2` - The startpoint
-+ `3` - The endpoint
++ `2` - The endpoint
++ `3` - The startpoint
 
 The algorithm I designed for this is particulary advantageous and efficient with larger areas - and is **progressive** meaning you can either sacrifice some speed for accuracy, or get paths which may be less optimal, but much faster than algorithms such as A*. The algorithm works best however with maze-like constricted maps.
 
